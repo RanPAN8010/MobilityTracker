@@ -41,4 +41,7 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.espresso.core)
     androidTestImplementation(libs.ext.junit)
+    // 定位与活动识别 API、Cloud Firestore 数据库
+    implementation(libs.play.services.location)
+    implementation(libs.firebase.firestore)
 }
